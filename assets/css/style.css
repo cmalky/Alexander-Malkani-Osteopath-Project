@@ -153,3 +153,9 @@ footer {
 }
 
 /* ------------- MEDIA QUERIES -------------- */
+
+@media(min-width: 850px) {
+    .index-body {
+    width: 40%;
+    }
+}
