@@ -1,0 +1,33 @@
+/* ------------- HEADER -------------- */
+
+.header-img{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* ------------- NAVBAR -------------- */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+/* ------------- TEXT -------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ------------- MEDIA QUERIES -------------- */
