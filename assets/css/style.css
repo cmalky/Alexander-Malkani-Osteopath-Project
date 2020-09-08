@@ -4,12 +4,134 @@
     display: block;
     margin: 20px auto;
     text-align: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* ------------- CALLOUT -------------- */
+
+.callout-container{
+    height: 40vh;
+
+    background: url(../images/orchardmedicalcentre.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color:white;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* ------------- BODY -------------- */
+
+.index-body {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.index-body h1 {
+    margin-bottom: 30px;
+}
+
+/* ------------- FOOTER -------------- */
+
+footer {
+    background-color: #dedede;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 8px;
+    text-align: center;
+    color: #aa900f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #aa900f;
+    color: white;
+}
+
+/* ------------- DIVIDERS -------------- */
+
+.block-divider--orange {
+    background-color: #aa900f
+}
+
+/* ------------- BUTTONS -------------- */
+
+.btn--cta{
+    font-weight: bold;
+    width: 160px;
+}
+
+.btn--orange {
+    color: black;
+    background-color:white;
+    border-color: white;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #aa900f;
+    border-color: #aa900f;
 }
 
 /* ------------- NAVBAR -------------- */
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     border: 0;
     width: 100%;
 }
