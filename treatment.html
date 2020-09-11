@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,13 +24,13 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
-                        <li class="active nav-item mr-2 uppercase">
+                        <li class="nav-item mr-2 uppercase">
                             <a class="nav-link" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item mr-2 uppercase">
                             <a class="nav-link" href="/about.html">About</a>
                         </li>
-                        <li class="nav-item mr-2 uppercase">
+                        <li class="active nav-item mr-2 uppercase">
                             <a class="nav-link" href="/treatment.html">Treatment</a>
                         </li>
                         <li class="nav-item mr-2 uppercase">
@@ -41,7 +40,63 @@
                 </div>
             </nav>
         </div>
+        <div class="container-wrapper">
+            <div class="container index-body-container content-container">
+                <section class="index-body">
+                    <div class="row">
+                        <div class="col-12 text-center page-header">
+                            <h2 class="text-uppercase">TREATMENT</h2>
+                            <hr class="block-divider block-divider--orange" />
+                        </div>
+                    </div>
+                    <div class="treatments" id="treatmentDropdown">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Treatment 1
+                                    </button>
+                                </h5>
+                            </div>
 
+                            <div id="collapseOne" class="collapsed" aria-labelledby="headingOne" data-parent="#treatmentDropdown">
+                                <div class="card-body">
+                                    Treatment 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Treatment 2
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#treatmentDropdown">
+                                <div class="card-body">
+                                    Treatment 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Treatment 3
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#treatmentDropdown">
+                                <div class="card-body">
+                                    Treatment 3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
         <footer class="container-fluid">
             <div id="footer-details" class="row">
                 <div class="col-sm-4">
