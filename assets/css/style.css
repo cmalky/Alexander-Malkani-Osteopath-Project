@@ -60,17 +60,19 @@
 
 /* ------------- BODY -------------- */
 
-.index-body {
+.page-content {
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    width: 80%;
 }
 
-.index-body h2 {
+.page-content h2 {
+
 }
 
-.index-body p {
+.page-content p {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: large;
@@ -170,6 +172,12 @@ footer {
     color: #aa900f;
 }
 
+/* ------------- CARDS -------------- */
+
+.card {
+    text-decoration: none;
+}
+
 /* ------------- CONTACT FORM -------------- */
 
 .contact-heading {
@@ -199,8 +207,8 @@ button[type="submit"] {
 /* ------------- MEDIA QUERIES -------------- */
 
 @media(min-width: 850px) {
-    .index-body {
-    width: 40%;
+    .page-content {
+    width: 50vw;
     }
 }
 
