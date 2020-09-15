@@ -15,7 +15,7 @@
     height: 40vh;
     font-family: 'Roboto', sans-serif;
 
-    background: url(../images/orchardmedicalcentre.jpg) no-repeat center center fixed; 
+    background: url(../images/orchard-medical-centre.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,6 +77,7 @@
     margin-bottom: 30px;
     font-size: large;
 }
+
 
 /* ------------- FOOTER -------------- */
 
@@ -140,7 +141,7 @@ footer {
 .card-header .btn--orange {
     text-transform: uppercase;
     font-size: large;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -179,6 +180,15 @@ footer {
 
 .orange-text {
     color: #aa900f;
+}
+
+.sub-header {
+    margin-top: 70px;
+}
+
+.text-wrap {
+    float: left;
+    margin: 10px;
 }
 
 /* ------------- CARDS -------------- */
