@@ -187,8 +187,7 @@ footer {
 }
 
 .text-wrap {
-    float: left;
-    margin: 10px;
+    
 }
 
 /* ------------- CARDS -------------- */
@@ -243,4 +242,10 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+@media(min-width: 850px) {
+    .text-wrap {
+    float: left;
+    margin: 10px;
 }
