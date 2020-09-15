@@ -84,6 +84,8 @@ footer {
     background-color: #dedede;
     min-height: 120px;
     margin: 0;
+    padding: 15px 15px;
+    bottom: 0;
 }
 
 .blockquote-footer {
@@ -135,6 +137,13 @@ footer {
     border-color: white;
 }
 
+.card-header .btn--orange {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
 .btn--orange:hover,
 .btn--orange:active,
 .btn--orange:focus,
@@ -176,6 +185,11 @@ footer {
 
 .card {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-header {
+    padding: 0;
 }
 
 /* ------------- CONTACT FORM -------------- */
