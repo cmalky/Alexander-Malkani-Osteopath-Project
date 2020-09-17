@@ -153,6 +153,15 @@ footer {
     border-color: #aa900f;
 }
 
+a:hover {
+    color: black;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(170 144 15 / 25%);
+}
+
 /* ------------- NAVBAR -------------- */
 
 .navbar {
@@ -188,6 +197,10 @@ footer {
 
 .text-wrap {
     
+}
+
+.testimonials p {
+    font-size: medium;
 }
 
 /* ------------- CARDS -------------- */
