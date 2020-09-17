@@ -208,6 +208,7 @@ a:hover {
 .card {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    margin: 10px;
 }
 
 .card-header {
