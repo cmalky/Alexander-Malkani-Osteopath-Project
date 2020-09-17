@@ -11,7 +11,7 @@
 
 /* ------------- CALLOUT -------------- */
 
-.callout-container{
+.callout-container {
     height: 40vh;
     font-family: 'Roboto', sans-serif;
 
@@ -28,13 +28,13 @@
     position: relative;
 }
 
-.opaque-overlay{
+.opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.7);
 }
 
 .jumbotron {
@@ -68,14 +68,14 @@
     width: 80%;
 }
 
-.page-content h2 {
-
-}
-
 .page-content p {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: large;
+}
+
+.treatments {
+    margin-top: 25px;
 }
 
 
@@ -85,7 +85,7 @@ footer {
     background-color: #dedede;
     min-height: 120px;
     margin: 0;
-    padding: 15px 15px;
+    padding: 20px;
     bottom: 0;
 }
 
@@ -141,7 +141,7 @@ footer {
 .card-header .btn--orange {
     text-transform: uppercase;
     font-size: large;
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -217,6 +217,10 @@ footer {
     max-width: 80%;
 }
 
+.form-control {
+    margin: 5px;
+}
+
 .center-form h5 {
     margin-bottom: 20px;
 }
@@ -240,12 +244,11 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
     }
 }
 
 @media(min-width: 850px) {
     .text-wrap {
-    float: left;
-    margin: 10px;
+        float: left;
+        margin: 10px;
 }
