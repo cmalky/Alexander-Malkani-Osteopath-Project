@@ -44,7 +44,7 @@
 .jumbotron-header {
     color:white;
     font-weight:bold;
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 .jumbotron .lead {
@@ -272,6 +272,7 @@ button[type="submit"] {
     .text-wrap {
         float: left;
         margin: 10px;
+    }
 }
 
 @media only screen 
