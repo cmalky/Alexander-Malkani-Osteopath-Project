@@ -21,6 +21,17 @@ decide to make an appointment.
 - Provide a site for new and returning clients to gain information on Osteopathic procedure and determine if 
 Osteopathic treatment is the right course of action for them.
 
+These are some user stories:
+
+- As a client that requires treatment I need to know how I can contact the Osteopath, find opening and closing times,
+and see where the Osteopath is situated so I can book an appointment or get a quote from the Osteopath.
+- As a client that has a specific injury or ache I need to be able to have a look at some common treatments on the Osteopaths
+website so that I can see if the Osteopath is suitable to treat my specific injury or ache.
+- As a returning client I need an easy and accessible way to contact the Osteopath multiple times so I can continue to make
+appointments should the injury or ache reoccur.
+- As a client that may not be tech-savvy I need a website that is easy to navigate with clear directions so that I am not needlessly
+confused when browsing the website.
+
 I heavily utilized Bootstrap when creating this site as I believe it provides an amazing framework for
 attractive and responsive websites. 
 
@@ -92,20 +103,26 @@ accordion system.
 
 ## Testing
 
-I tested this website on several devices and browsers.
-
-Tested on PC using Google Chrome, 1920x1080 resolution on 27-inch monitor and received intended result.
-
-Tested on PC using Mozilla Firefox, 1920x1080 resolution on 27-inch monitor and received intended result.
-
-Tested on Laptop using Microsoft Edge, 1920x1080 resolution on 17.3-inch screen and received intended result.
-
-Tested on PC using Google Chrome, variable resolution using dev tools to mimic phone screens and received intended result.
-
+Page(s) | Browser(s) | Resolution | Intended Result | Result | Notes
+------------ | ------------ | ------------- | ------------ | ------------- | -------------
+Home, About, Treatment, Contact | Google Chrome, Microsoft Edge, Firefox | Responsive, 27 inch screen | Testing screen resolution: Screen should adjust accordingly to the different screen and mobile sizes and be easily readable, maintaining ease of use. | Result as intended | Keeping the website fluent throughout multiple screen sizes will help users that aren't tech savvy.
+Home | Google Chrome, Microsoft Edge, Firefox | Responsive, 27 inch screen | Testing hyperlink on jumbotron: hyperlink should take user straight to the Treatment page. | Result as intended | The call to action button will help streamline the experience for users immediately looking for treatment options.
+Home, About, Treatment, Contact | Google Chrome, Microsoft Edge, Firefox | 1920x1080, 17.3 inch screen | Testing pages on smaller screen: Screen should adjust accordingly and be easily readable, mainting ease of use. | Result as intended | Making sure that there are no bugs or unintended changes on a smaller screen for users that have smaller laptops.
+Treatment | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing dropdowns: Dropdowns should stay well sized across screen sizes and work well. | Result as intended | The dropdowns were designed so to not overload the user with potentially unneccesary information.
+About | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing screen ordering: Testimonials should span vertically instead of horizontally on the screen when the screen size gets smaller. | Result as intended | Making sure the elements are spaced adequately and not cluttering the page.
+Contact | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing screen ordering: Contact page should move below the address information when the screen size gets smaller. | Result as intended | Making sure the elements are spaced adequately and not cluttering the page.
+Home, About, Treatment, Contact | Google Chrome | Samsung S10, 2280x1080 | Phone testing: Website should work flawlessly and be easily readable on phone. | Result as intended | Testing to make sure the website works well on a real mobile device.
 
 ## Deployment
 
-I have deployed this website through GitHub Pages at https://cmalky.github.io/Alexander-Malkani-Osteopath-Project/
+I deployed this website by taking the following steps:
+
+1. Going to github.com and logging in to my account.
+2. Choosing the project repository.
+3. Opening the settings and scrolling down to "GitHub Pages"
+4. Enabling GitHub Pages by selecting the master branch and the root folder.
+5. Pressing save.
+6. After a short wait the website should be deployed at https://cmalky.github.io/Alexander-Malkani-Osteopath-Project/
 
 ## Credits
 
