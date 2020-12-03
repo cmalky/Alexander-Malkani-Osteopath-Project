@@ -103,7 +103,7 @@ accordion system.
 
 ## Testing
 
-Page(s) | Browser(s) | Resolution | Intended Result | Result | Notes
+Page(s) | Browser(s) | Resolution | Intended Result | Result | Notes/Fixes
 ------------ | ------------ | ------------- | ------------ | ------------- | -------------
 Home, About, Treatment, Contact | Google Chrome, Microsoft Edge, Firefox | Responsive, 27 inch screen | Testing screen resolution: Screen should adjust accordingly to the different screen and mobile sizes and be easily readable, maintaining ease of use. | Result as intended | Keeping the website fluent throughout multiple screen sizes will help users that aren't tech savvy.
 Home | Google Chrome, Microsoft Edge, Firefox | Responsive, 27 inch screen | Testing hyperlink on jumbotron: hyperlink should take user straight to the Treatment page. | Result as intended | The call to action button will help streamline the experience for users immediately looking for treatment options.
@@ -112,6 +112,7 @@ Treatment | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing dropdo
 About | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing screen ordering: Testimonials should span vertically instead of horizontally on the screen when the screen size gets smaller. | Result as intended | Making sure the elements are spaced adequately and not cluttering the page.
 Contact | Google Chrome, Microsoft Edge, Firefox | Responsive | Testing screen ordering: Contact page should move below the address information when the screen size gets smaller. | Result as intended | Making sure the elements are spaced adequately and not cluttering the page.
 Home, About, Treatment, Contact | Google Chrome | Samsung S10, 2280x1080 | Phone testing: Website should work flawlessly and be easily readable on phone. | Result as intended | Testing to make sure the website works well on a real mobile device.
+Home, About, Treatment, Contact | Google CHrome | iPhone 5/SE | Phone testing: Website should work flawlessly and be easily readable on phone. | Navigation not working as intended, could not click navigation and jumbotron text was cluttered | Changed height of callout container to 50vh on smaller screens to make room for the jumbotron and allow
 
 ## Deployment
 
